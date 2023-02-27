@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Google+Sans:400,500&display=swap"></link>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Google+Sans:400,500&display=swap">
     <link rel="stylesheet" href="style.css">
     <title>GoogleKeep</title>
 </head>
 <body>
+    
     <main>
         <header>
             <img src="https://www.gstatic.com/images/branding/product/1x/keep_48dp.png" alt="" class="header-logo">
@@ -26,12 +27,16 @@
         </div>
         <div id="notes"></div>
         <div id="placeholder">
-            <img src="https://icon.now.sh/lightbulb_outline" alt="" id="placeholder-logo">
+            <!-- <img src=" " alt="" id="placeholder-logo"> -->
             <p id="placeholder-text">Notes you add appear here</p>
         </div>
     </main>
 
-
+    <div class="modal-content">
+        <input type="text" placeholder="Title" class="modal-title">
+        <input type="text" placeholder="Take a note..." class="modal-text">
+        <span class="modal-close-button">Close</span>
+    </div>
     <script src="index.js"></script>
 </body>
 </html>
